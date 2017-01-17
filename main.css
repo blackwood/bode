@@ -1,0 +1,72 @@
+/* blue: #1675ff; */
+/* darkblue: #030D3E; */
+
+body {
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+#main {
+  text-align: center;
+}
+
+.show {
+  border: 4px solid #1675ff;
+  border-radius: 4px;
+  max-width: 300px;
+  padding: 15px 0;
+  margin: 0 auto;
+  box-shadow: 7px 7px 0px #030D3E;
+}
+
+.date {
+  width: 80px;
+  background: #1675ff;
+  border: 2px solid #01BAEF;
+  margin: 10px auto;
+  padding: 15px 0;
+  color: #ffffff;
+  display: block;
+  overflow: auto;
+}
+
+.date .month,
+.date .day {
+  display: block;
+  font-weight: bolder;
+}
+
+.date .month {
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+.date .day {
+  font-size: 24px;
+}
+
+.desc {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 12px;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.bold-blue {
+  color: #030D3E;
+}
