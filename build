@@ -1,0 +1,35 @@
+#! /usr/bin/env ruby
+
+require 'yaml'
+require 'erb'
+
+source = YAML.load_file('data.yml')
+
+class DataBinding
+  def initialize(hash)
+    @hash = hash.dup
+  end
+  def method_missing(meth, *args, &block)
+    @hash[meth.to_s]
+  end
+  def get_binding
+    binding
+  end
+end
+
+
+data = source
+
+data["shows"] = source["shows"].each do |show| 
+  show["month"] = Date::MONTHNAMES[show["date"].month][0..2].upcase
+  show["future"] = show["date"] < Date.today
+  show
+end
+
+puts data["shows"].inspect
+
+template = ERB.new File.read('index.html.erb'), nil, "%"
+
+File.open("index.html", 'w') { |file|
+  file.write(template.result(DataBinding.new(data).get_binding)) 
+}
