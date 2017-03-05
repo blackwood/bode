@@ -1,5 +1,5 @@
 task default: %w[build]
 
-task :test do
+task :build do
   ruby "build"
 end
