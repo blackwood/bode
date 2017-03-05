@@ -28,8 +28,8 @@ end
 
 puts data["shows"].inspect
 
-template = ERB.new File.read('index.html.erb'), nil, "%"
+template = ERB.new File.read("index.html.erb"), nil, "%"
 
-File.open("index.html", 'w') { |file|
+File.open("dist/index.html", 'w') { |file|
   file.write(template.result(DataBinding.new(data).get_binding)) 
 }
