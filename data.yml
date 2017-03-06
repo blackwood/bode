@@ -1,19 +1,31 @@
 shows:
 #  - date: 2017-00-00
-#    location: _
+#    venue: _
+#    city: _
+#    state: _
 #    setlist: []
   - date: 2017-01-08
-    location: 6B Lounge 
+    venue: 6B Lounge
+    city: Boston
+    state: MA
     setlist: [Oceans, Cry Love, July in August]
   - date: 2017-01-09
-    location: Lizard Lounge 
+    venue: Lizard Lounge 
+    city: Cambridge
+    state: MA
     setlist: [Oceans, July in August]
   - date: 2017-01-10
-    location: The Burren  
+    venue: The Burren
+    city: Somerville
+    state: MA
     setlist: [Willow Tree, Oceans, July in August]
   - date: 2017-01-11
-    location: Gulu-Gulu 
+    venue: Gulu-Gulu
+    city: Salem
+    state: MA
     setlist: [Oceans, Willow Tree, The World]
   - date: 2017-01-13
-    location: Article 24
+    venue: Article 24
+    city: Allston
+    state: MA
     setlist: [Callin' Out, July in August, Movin' South, Oceans, Parking Lot Love Song, Serene/Obscene, The World, Trust, Weapon of Love, Willow Tree, Beeline, Cry Love, Mood For a Day, Plasticities, Redemption Song, Spiritual Groove, Three White Horses, Who Needs Sleep, Me and Julio]

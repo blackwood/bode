@@ -9,16 +9,18 @@
     <h1>miles blackwood robinson</h1>
     <aside class="show">
       <a href="show-cover"></a>
-      <h3>next show</h3>
+      <h3><%= shows.last["future"] ? "next" : "last" %> show</h3>
       <span>on</span>
       <div class="date">
         <span class="month"><%= shows.last["month"] %></span>
-        <span class="day">17</span>
+        <span class="day"><%= shows.last["date"].day %></span>
       </div>
-      <div class="desc">prob'ly gonna play at</div>
-      <div class="venue">funk n' waffles - downtown</div>
-      <div class="location">in <b class="bold-blue">Syracuse NY</b></div>
-      <div class="price">for free!</div>
+      <div class="desc">@</div>
+      <div class="venue"><%= shows.last["venue"] %></div>
+      <div class="location">in <b class="bold-blue"><%= shows.last["city"] + ", " + shows.last["state"] %></b></div>
+      <% if shows.last["future"] %>
+        <div class="price">tickets are <%= shows.last["price"] ? "$" + shows.last["price"].to_s : "free" %>!</div>
+      <% end %>
     </aside>
   </main>
   <script type="text/javascript" src="./main.js"></script>

@@ -2,6 +2,7 @@
 
 require 'yaml'
 require 'erb'
+require 'fileutils'
 
 source = YAML.load_file('data.yml')
 
@@ -22,7 +23,7 @@ data = source
 
 data["shows"] = source["shows"].each do |show| 
   show["month"] = Date::MONTHNAMES[show["date"].month][0..2].upcase
-  show["future"] = show["date"] < Date.today
+  show["future"] = show["date"] > Date.today
   show
 end
 
@@ -33,3 +34,5 @@ template = ERB.new File.read("index.html.erb"), nil, "%"
 File.open("dist/index.html", 'w') { |file|
   file.write(template.result(DataBinding.new(data).get_binding)) 
 }
+
+FileUtils.cp 'main.css', 'dist/main.css'
