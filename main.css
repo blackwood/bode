@@ -109,3 +109,26 @@ h3 {
 .phat {
   font-weight: bolder;
 }
+
+/* MC */
+#mc_embed_signup {
+  background-color: #fffdf1;
+}
+
+#mc_embed_signup input.email {
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid #0067fb;
+}
+
+#mc_embed_signup .button {
+  color: #0067fb;
+  background-color: #ffe300;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Fredoka One', monospace;
+  font-size: 18px;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #ffc000;
+}
