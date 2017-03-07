@@ -113,24 +113,27 @@ h3 {
 
 /* MC overrides BEGIN/ */
 #mc_embed_signup {
-  background-color: #fffdf1 !important;
+  background-color: #fffdf1;
+  clear: left; 
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
 }
 
 #mc_embed_signup input.email {
-  font-family: 'Montserrat', sans-serif !important;
-  border: 3px solid #0067fb !important;
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid #0067fb;
 }
 
 #mc_embed_signup .button {
-  color: #0067fb !important;
-  background-color: #ffe300 !important;
-  font-weight: bolder !important;
-  text-transform: uppercase !important;
-  font-family: 'Fredoka One', monospace !important;
-  font-size: 18px !important;
+  color: #0067fb;
+  background-color: #ffe300;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Fredoka One', monospace;
+  font-size: 18px;
 }
 
 #mc_embed_signup .button:hover {
-  background-color: #ffc000 !important;
+  background-color: #ffc000;
 }
 /* /END MC overrides
