@@ -54,6 +54,7 @@ h3 {
   color: #0067fb;
   width: 500px;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 .show.post {
