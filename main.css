@@ -1,13 +1,36 @@
-/* blue: #1675ff; */
-/* darkblue: #030D3E; */
+/* darkblue: 
+#030D3E;
+*/
+/* regblue: 
+#0067fb;
+*/
+/* orange: 
+#ffc000;
+*/
+/* yellow: 
+#ffe300;
+*/
+/* beige: 
+#fffdf1;
+*/
 
 body {
-  font-family: 'Lucida Console', Monaco, monospace;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fffdf1;
+}
+
+code, pre, .code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: #0067fb;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Fredoka One', monospace;
   font-weight: lighter;
 }
 
@@ -15,26 +38,36 @@ h3 {
   margin-bottom: 10px;
 }
 
+.main-title {
+  margin-top: 21px;
+}
+
 #main {
   text-align: center;
 }
 
-.show {
-  border: 4px solid #1675ff;
+.post {
+  border: 4px solid #0067fb;
   border-radius: 4px;
-  max-width: 300px;
   padding: 15px 0;
   margin: 0 auto;
-  box-shadow: 7px 7px 0px #030D3E;
+  color: #0067fb;
+  width: 500px;
+  max-width: 100%;
+}
+
+.show.post {
+  width: 300px;
+  background-color: #ffe300;
 }
 
 .date {
-  width: 80px;
-  background: #1675ff;
-  border: 2px solid #01BAEF;
+  width: 120px;
+  background: #0067fb;
+  border-radius: 4px;
   margin: 10px auto;
   padding: 15px 0;
-  color: #ffffff;
+  color: #fffdf1;
   display: block;
   overflow: auto;
 }
@@ -47,26 +80,32 @@ h3 {
 
 .date .month {
   margin: 2px 0;
-  font-size: 16px;
+  font-size: 32px;
 }
 
 .date .day {
-  font-size: 24px;
+  font-size: 50px;
 }
 
-.desc {
-  font-size: 12px;
+.at-sym {
+  font-size: 24px;
   margin: 10px 0;
+  font-weight: bolder;
+  color: #ffc000;
 }
 
 .price {
   font-size: 12px;
 }
 
+.venue {
+  font-size: 24px;
+}
+
 .location {
   margin-bottom: 10px;
 }
 
-.bold-blue {
-  color: #030D3E;
+.phat {
+  font-weight: bolder;
 }
