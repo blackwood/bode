@@ -3,6 +3,7 @@
 require 'yaml'
 require 'erb'
 require 'fileutils'
+require 'cssminify'
 
 source = YAML.load_file('data.yml')
 
@@ -35,4 +36,4 @@ File.open("dist/index.html", 'w') { |file|
   file.write(template.result(DataBinding.new(data).get_binding)) 
 }
 
-FileUtils.cp 'main.css', 'dist/main.css'
+File.write('dist/main.css', CSSminify.compress(File.open('main.css')))
