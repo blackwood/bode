@@ -1,9 +1,9 @@
-require 'yaml'
-require 'erb'
-require 'fileutils'
-require 'cssminify'
+require "yaml"
+require "erb"
+require "fileutils"
+require "cssminify"
 
-source = YAML.load_file('data.yml')
+source = YAML.load_file("src/data.yml")
 
 class DataBinding
   def initialize(hash)
@@ -17,7 +17,6 @@ class DataBinding
   end
 end
 
-
 data = source
 
 data["shows"] = source["shows"].each do |show| 
@@ -26,10 +25,13 @@ data["shows"] = source["shows"].each do |show|
   show
 end
 
-template = ERB.new File.read("index.html.erb"), nil, "%"
+template = ERB.new File.read("src/index.html.erb"), nil, "%"
 
-File.open("dist/index.html", 'w') { |file|
+File.open("dist/index.html", "w") { |file|
   file.write(template.result(DataBinding.new(data).get_binding)) 
 }
 
-File.write('dist/main.css', CSSminify.compress(File.open('main.css')))
+File.write("dist/main.css", CSSminify.compress(File.open("src/main.css")))
+File.write("dist/main.js", File.read("src/main.js"))
+
+puts "Built at " + Time.now.to_s

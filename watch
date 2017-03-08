@@ -1,3 +1,3 @@
 #! /usr/bin/env bash
 
-fswatch -o . | xargs -n1 ./build
+fswatch -o ./src | xargs -n1 ruby ./build.rb
