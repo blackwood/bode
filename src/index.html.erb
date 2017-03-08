@@ -9,7 +9,7 @@
 <body>
   <main id="main">
     <h1 class="main-title">blackwood</h1>
-    <aside class="show post">
+    <aside class="show post box">
       <a href="show-cover"></a>
       <h3><%= shows.last["future"] ? "next" : "last" %> show</h3>
       <span>on</span>
@@ -24,8 +24,9 @@
         <div class="price phat">tickets are <%= shows.last["price"] ? "$" + shows.last["price"].to_s : "free" %>!</div>
       <% end %>
     </aside>
+    <%= File.read("src/includes/social.html") %>
     <h1 class="main-title">what's next?</h1>
-    <aside class="post">
+    <aside class="post box">
       <p>Wouldn't you like to know?</p>
       <p>Then you should...</p>
       <h3>Subscribe!</h3>
