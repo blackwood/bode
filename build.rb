@@ -1,5 +1,3 @@
-#! /usr/bin/env ruby
-
 require 'yaml'
 require 'erb'
 require 'fileutils'
@@ -27,8 +25,6 @@ data["shows"] = source["shows"].each do |show|
   show["future"] = show["date"] > Date.today
   show
 end
-
-puts data["shows"].inspect
 
 template = ERB.new File.read("index.html.erb"), nil, "%"
 
