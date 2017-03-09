@@ -33,5 +33,6 @@ File.open("dist/index.html", "w") { |file|
 
 File.write("dist/main.css", CSSminify.compress(File.open("src/main.css")))
 File.write("dist/main.js", File.read("src/main.js"))
+File.write("dist/CNAME", "blackwood.io")
 
 puts "Built at " + Time.now.to_s
