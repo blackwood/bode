@@ -64,6 +64,10 @@ h3 {
   box-sizing: border-box;
 }
 
+.rowbox {
+  display: inline-block;
+}
+
 .show.post {
   width: 300px;
   background-color: #ffe300;

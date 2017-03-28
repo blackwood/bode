@@ -9,21 +9,27 @@
 <body>
   <main id="main">
     <h1 class="main-title">blackwood</h1>
-    <aside class="show post box">
-      <a href="show-cover"></a>
-      <h3><%= shows.last["future"] ? "next" : "last" %> show</h3>
-      <span>on</span>
-      <div class="date">
-        <span class="month code"><%= shows.last["month"] %></span>
-        <span class="day code"><%= shows.last["date"].day %></span>
-      </div>
-      <div class="at-sym">@</div>
-      <div class="venue"><%= shows.last["venue"] %></div>
-      <div class="location">in <b><%= shows.last["city"] + ", " + shows.last["state"] %></b></div>
-      <% if shows.last["future"] %>
-        <div class="price phat">tickets are <%= shows.last["price"] ? "$" + shows.last["price"].to_s : "free" %>!</div>
+    <div class="show-row">
+      <% upcoming.each_with_index do |show, i| %>
+        <aside class="show post box rowbox">
+          <a href="show-cover"></a>
+          <h3><%= timesigs[i] %> show</h3>
+          <span>on</span>
+          <div class="date">
+            <span class="month code"><%= show["month"] %></span>
+            <span class="day code"><%= show["date"].day %></span>
+          </div>
+          <div class="at-sym">@</div>
+          <div class="venue"><%= show["venue"] %></div>
+          <div class="location">in <b><%= show["city"] + ", " + show["state"] %></b></div>
+          <% if show["future"] %>              
+            <div class="price phat"><%= show["price"] ? "cover is $" + show["price"].to_s : "no cover!" %></div>
+          <% else %>
+            <div class="price phat"><%= show["sentiment"] %></div>
+          <% end %>
+        </aside>
       <% end %>
-    </aside>
+    </div>
     <%= File.read("src/includes/social.html") %>
     <h1 class="main-title">what's next?</h1>
     <aside class="post box">
