@@ -13,7 +13,7 @@
       <% upcoming.each_with_index do |show, i| %>
         <aside class="show post box rowbox">
           <a href="show-cover"></a>
-          <h3><%= timesigs[i] %> show</h3>
+          <h3><%= show["today"] ? "today's" : timesigs[i] %> show</h3>
           <span>on</span>
           <div class="date">
             <span class="month code"><%= show["month"] %></span>
@@ -22,7 +22,7 @@
           <div class="at-sym">@</div>
           <div class="venue"><%= show["venue"] %></div>
           <div class="location">in <b><%= show["city"] + ", " + show["state"] %></b></div>
-          <% if show["future"] %>              
+          <% if show["future"] || show["today"] %>              
             <div class="price phat"><%= show["price"] ? "cover is $" + show["price"].to_s : "no cover!" %></div>
           <% else %>
             <div class="price phat"><%= show["sentiment"] %></div>

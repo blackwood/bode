@@ -24,10 +24,11 @@ data = source
 data["history"] = source["history"].each do |show| 
   show["month"] = Date::MONTHNAMES[show["date"].month][0..2].upcase
   show["future"] = show["date"] > Date.today
+  show["today"] = show["date"] == Date.today
   show
 end
 
-booked = data["history"].index{ |s| s["future"] }
+booked = data["history"].index{ |s| s["future"] || s["today"] }
 upcoming = (booked ? booked : data["history"].length) - 1 
 
 data["upcoming"] = data["history"].slice(upcoming, 3)
