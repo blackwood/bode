@@ -12,7 +12,7 @@
     <div class="show-row">
       <% upcoming.each_with_index do |show, i| %>
         <aside class="show post box rowbox">
-          <a href="show-cover"></a>
+          <a href="<%= show["link"] %>" class="show-cover"></a>
           <h3><%= show["today"] ? "today's" : timesigs[i] %> show</h3>
           <h4><%= show["act"] ? show["act"] : "solo show" %></h4>
           <span>on</span>
