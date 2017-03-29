@@ -9,6 +9,9 @@
 <body>
   <main id="main">
     <h1 class="main-title">blackwood</h1>
+    <div class="soundcloud">
+      <%= File.read("src/includes/soundcloud.html") %>
+    </div>
     <div class="show-row">
       <% upcoming.each_with_index do |show, i| %>
         <aside class="show post box rowbox">

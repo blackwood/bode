@@ -232,4 +232,13 @@ h4 {
 #mc_embed_signup .button:hover {
   background-color: #ffc000;
 }
-/* /END MC overrides
+/* /END MC overrides */
+
+.soundcloud {
+  max-width: 900px;
+  width: 100%; 
+  display: block;
+  margin: 10px auto 30px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
