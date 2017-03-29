@@ -40,9 +40,10 @@ history:
     state: MA
     setlist: [Willow Tree, Mood For A Day, Wise Up, The Ambassador]
     sentiment: so intimate!
-  - date: 2017-03-28
-    venue: The Burren
-    city: Somerville
-    state: MA
-    setlist: []
+  - date: 2017-03-26
+    act: The New Limits
+    venue: Three Sheets
+    city: New Haven
+    state: CT
+    setlist: []]
     sentiment: 
