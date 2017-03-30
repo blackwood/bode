@@ -40,6 +40,13 @@ File.open("dist/index.html", "w") { |file|
   file.write(template.result(DataBinding.new(data).get_binding))
 }
 
+quote = ERB.new File.read("src/pages/quote/index.html.erb"), nil, "%"
+
+FileUtils.mkdir_p "dist/quote"
+File.open("dist/quote/index.html", "w") { |file|
+  file.write(quote.result(DataBinding.new(data).get_binding))
+}
+
 File.write("dist/main.css", CSSminify.compress(File.open("src/main.css")))
 File.write("dist/main.js", File.read("src/main.js"))
 File.write("dist/CNAME", "blackwood.io")
