@@ -1,6 +1,9 @@
 /* darkblue: 
 #030D3E;
 */
+/* midblue:
+#0044a5;
+*/
 /* regblue: 
 #0067fb;
 */
@@ -36,6 +39,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   font-family: 'Fredoka One', monospace;
   font-weight: lighter;
+}
+
+a {
+  color: #0067fb;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+a:hover {
+  color: #0044a5;
 }
 
 h3 {
