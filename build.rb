@@ -50,7 +50,7 @@ File.open("dist/quote/index.html", "w") { |file|
   file.write(quote.result(DataBinding.new(data).get_binding))
 }
  
-url = 'https://api.instagram.com/v1/users/274431104/media/recent/?access_token='
+url = 'https://api.instagram.com/v1/users/274431104/media/recent/?access_token=' + ENV["INSTAGRAM_TOKEN"]
 uri = URI(url)
 response = Net::HTTP.get(uri)
 r = JSON.parse(response)
