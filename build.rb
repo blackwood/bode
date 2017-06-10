@@ -50,24 +50,24 @@ File.open("dist/quote/index.html", "w") { |file|
   file.write(quote.result(DataBinding.new(data).get_binding))
 }
  
-url = 'https://api.instagram.com/v1/users/274431104/media/recent/?access_token=274431104.1677ed0.08a0149dd07e441baf9b054ce12e4c5f'
-uri = URI(url)
-response = Net::HTTP.get(uri)
-r = JSON.parse(response)
-FileUtils.mkdir_p "dist/insta"
+# url = 'https://api.instagram.com/v1/users/274431104/media/recent/?access_token='
+# uri = URI(url)
+# response = Net::HTTP.get(uri)
+# r = JSON.parse(response)
+# FileUtils.mkdir_p "dist/insta"
 
-last = (File.read("dist/insta/last") || 0).to_i
+# last = (File.read("dist/insta/last") || 0).to_i
 
-lastpost = r['data'].select { |post| post['created_time'].to_i > last && post['tags'].include?('blackwood') }[0]
+# lastpost = r['data'].select { |post| post['created_time'].to_i > last && post['tags'].include?('blackwood') }[0]
 
-if (lastpost) 
+# if (lastpost) 
 
-  download = open(lastpost['images']['standard_resolution']['url'])
-  IO.copy_stream(download, 'dist/insta/last.jpg')
+#   download = open(lastpost['images']['standard_resolution']['url'])
+#   IO.copy_stream(download, 'dist/insta/last.jpg')
   
-  FileUtils.mkdir_p "dist/insta"
-  File.write("dist/insta/last.txt", lastpost["created_time"])
-end
+#   FileUtils.mkdir_p "dist/insta"
+#   File.write("dist/insta/last.txt", lastpost["created_time"])
+# end
 
 File.write("dist/main.css", CSSminify.compress(File.open("src/main.css")))
 File.write("dist/main.js", File.read("src/main.js"))
