@@ -43,12 +43,14 @@ File.open("dist/index.html", "w") { |file|
   file.write(template.result(DataBinding.new(data).get_binding))
 }
 
-quote = ERB.new File.read("src/pages/quote/index.html.erb"), nil, "%"
+Dir.glob('pages/*').select {|f| File.directory? f}.each do |dir|
+  page = ERB.new File.read("src/pages/#{dir}/index.html.erb"), nil, "%"
 
-FileUtils.mkdir_p "dist/quote"
-File.open("dist/quote/index.html", "w") { |file|
-  file.write(quote.result(DataBinding.new(data).get_binding))
-}
+  FileUtils.mkdir_p "dist/#{dir}"
+  File.open("dist/#{dir}/index.html", "w") { |file|
+    file.write(quote.result(DataBinding.new(data).get_binding))
+  }
+end
  
 # url = 'https://api.instagram.com/v1/users/274431104/media/recent/?access_token=' + ENV["INSTAGRAM_TOKEN"]
 # uri = URI(url)
