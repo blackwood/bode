@@ -49,3 +49,13 @@ history:
     state: CT
     setlist: []
     sentiment: 
+
+mics:
+  - title: Jazz Jam
+    location: Funk n' Waffles
+    time: 3:00PM
+    day: Sunday
+  - title:
+    locaiton: Maxwells
+    time: 
+    day: Tuesday

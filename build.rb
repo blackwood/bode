@@ -43,12 +43,12 @@ File.open("dist/index.html", "w") { |file|
   file.write(template.result(DataBinding.new(data).get_binding))
 }
 
-Dir.glob('pages/*').select {|f| File.directory? f}.each do |dir|
-  page = ERB.new File.read("src/pages/#{dir}/index.html.erb"), nil, "%"
-
-  FileUtils.mkdir_p "dist/#{dir}"
-  File.open("dist/#{dir}/index.html", "w") { |file|
-    file.write(quote.result(DataBinding.new(data).get_binding))
+Dir.glob('src/pages/*').select {|f| File.directory? f}.each do |dir|
+  page = ERB.new File.read("#{dir}/index.html.erb"), nil, "%"
+  base = File.basename(dir)
+  FileUtils.mkdir_p "dist/#{base}"
+  File.open("dist/#{base}/index.html", "w") { |file|
+    file.write(page.result(DataBinding.new(data).get_binding))
   }
 end
  
