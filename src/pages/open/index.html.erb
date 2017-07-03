@@ -8,6 +8,10 @@
 </head>
 <body>
   <main id="main">
+    <% mics.each_with_index do |mic, i| %>
+      <%= mic["title"] %> 
+      <%= mic["location"] %> on <%= mic["day"] %>
+    <% end %>
   </main>
   <script type="text/javascript" src="./main.js"></script>
   <%= File.read("src/includes/ga.html") %>
