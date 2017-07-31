@@ -7,17 +7,34 @@
 </head>
 <body>
   <main id="main">
-    <h1 class="main-title">Baze Blackwood</h1>
+    <h1 class="main-title center">Baze Blackwood</h1>
     <!-- <div class="insta"><img src="dist/insta/last.jpg" class="insta-img"></div> -->
-    <p class="about-block">producer ♦ musician ♦ web guy </p>
-    <%= File.read("src/includes/social.html") %>
+
+
+    <div class="container center-column">
+      <div class="grid">
+        <div class="grid__col--1-of-2 center grid__col">
+          <p class="about-block">producer ♦ musician ♦ web guy </p>
+          <img width="300" height="300" src="https://raw.githubusercontent.com/blackwood/files/master/avatar2017.jpg" />
+          <%= File.read("src/includes/social.html") %>
+        </div>
+        <div class="grid__col--1-of-2 grid__col grid__col--am">
+          <div class="vc-item">
+            <p>Baze is a musician, educator and digital dude, formerly at The Boston Globe, STAT News and Echo & Co.</p>
+            <p>He played saxophone in the New Limits, and writes and <a href="https://soundcloud.com/bazeblackwood">produces music</a> too.
+            <p>Now he is a soon-to-be audio apprentice at Plaid Dog Studio.</p>
+            <p>Follow on <a href="https://twitter.com/bazeblackwood">Twitter</a>, duh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 <!--     <aside class="post box">
       <p>Currently <b>ACCEPTING</b> new web projects</p>
       <a href="/quote"><h3>Get a quote!</h3></a>
     </aside> -->
-    <div class="soundcloud box">
-      <p><b>Listen:</b> The raw mix of Oceans (Sink or Float) will only be up until the end of July!</p>
+    <div class="soundcloud box center-column">
+      <p class="center"><b>Listen:</b> The raw mix of Oceans (Sink or Float) will only be up until the end of July!</p>
       <%= File.read("src/includes/soundcloud.html") %>
     </div>
     <!--div class="show-row">
@@ -42,9 +59,9 @@
         </aside>
       <% end %>
     </div-->
-    <h1 class="main-title">what's next?</h1>
-    <aside class="post box">
-      <p>Get updates, essays and lessons:</p>
+    <h4 class="main-title center">what else?</h4>
+    <aside class="post box center-column">
+      <p class="center">Get updates, essays and lessons:</p>
       <%= File.read("src/includes/mailchimp.html") %>
     </aside>
   </main>
