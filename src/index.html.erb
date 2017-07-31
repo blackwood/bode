@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>blackwood.io</title>
-  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat:400,600|Source+Code+Pro:900" rel="stylesheet">
+  <title>BAZE BLACKWOOD</title>
   <link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 <body>
   <main id="main">
-    <h1 class="main-title">blackwood</h1>
+    <h1 class="main-title">Baze Blackwood</h1>
     <!-- <div class="insta"><img src="dist/insta/last.jpg" class="insta-img"></div> -->
-    <p class="about-block">producer ♦ hornist @ <a href="http://facebook.com/thenewlimits">The New Limits</a> ♦ web guy </p>
+    <p class="about-block">producer ♦ musician ♦ web guy </p>
+    <%= File.read("src/includes/social.html") %>
+
 <!--     <aside class="post box">
       <p>Currently <b>ACCEPTING</b> new web projects</p>
       <a href="/quote"><h3>Get a quote!</h3></a>
     </aside> -->
-    <div class="soundcloud">
+    <div class="soundcloud box">
       <p><b>Listen:</b> The raw mix of Oceans (Sink or Float) will only be up until the end of July!</p>
       <%= File.read("src/includes/soundcloud.html") %>
     </div>
-    <div class="show-row">
+    <!--div class="show-row">
       <% upcoming.each_with_index do |show, i| %>
         <aside class="show post box rowbox">
           <a href="<%= show["link"] %>" class="show-cover"></a>
-          <h3><%= show["today"] ? "today's" : timesigs[i] %> show</h3>
-          <h4><%= show["act"] ? show["act"] : "solo show" %></h4>
+          <h3 class="hug"><%= show["today"] ? "today's" : timesigs[i] %> show</h3>
+          <h4 class="hug"><%= show["act"] ? show["act"] : "solo show" %></h4>
           <span>on</span>
           <div class="date">
-            <span class="month code"><%= show["month"] %></span>
-            <span class="day code"><%= show["date"].day %></span>
+            <span class="hug month code"><%= show["month"] %></span>
+            <span class="hug day code"><%= show["date"].day %></span>
           </div>
           <div class="at-sym">@</div>
           <div class="venue"><%= show["venue"] %></div>
@@ -40,13 +41,10 @@
           <% end %>
         </aside>
       <% end %>
-    </div>
-    <%= File.read("src/includes/social.html") %>
+    </div-->
     <h1 class="main-title">what's next?</h1>
     <aside class="post box">
-      <p>Wouldn't you like to know?</p>
-      <p>Then you should...</p>
-      <h3>Subscribe!</h3>
+      <p>Get updates, essays and lessons:</p>
       <%= File.read("src/includes/mailchimp.html") %>
     </aside>
   </main>
