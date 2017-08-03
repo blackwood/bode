@@ -644,7 +644,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Book Antiqua, Garamond, serif;
   background-color: #fffdf1;
 }
 
@@ -655,11 +655,11 @@ code, pre, .code {
 h1, h2, h3 {
   text-transform: uppercase;
   color: #546069;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: lighter;
+  font-family: Gill Sans MT, Helvetica Neue, serif;
+  font-weight: bold;
 }
 
 a {
@@ -682,7 +682,7 @@ h4 {
 }
 
 .main-title {
-  margin-top: 21px;
+  margin-top: 25px 0;
 }
 
 #main {
@@ -837,7 +837,7 @@ h4 {
 
 /* MC overrides BEGIN/ */
 #mc_embed_signup {
-  background-color: #fffdf1;
+  background-color: #e0e0e0;
   clear: left; 
   font: 14px Helvetica, Arial, sans-serif;
   width: 100%;
@@ -852,7 +852,6 @@ h4 {
   color: #ffffff;
   font-weight: bolder;
   text-transform: uppercase;
-  font-family: monospace;
   font-size: 18px;
 }
 
@@ -873,5 +872,10 @@ h4 {
 
 .center-column {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 25px auto;
+  width: 100%;
+}
+
+p.about-block span {
+  font-size: 12px;
 }
