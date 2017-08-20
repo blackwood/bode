@@ -683,6 +683,7 @@ h4 {
 
 .main-title {
   margin-top: 25px;
+  box-sizing: border-box;
   border: 12px solid;
 }
 
