@@ -74,5 +74,7 @@ end
 File.write("dist/main.css", CSSminify.compress(File.open("src/main.css")))
 File.write("dist/main.js", File.read("src/main.js"))
 File.write("dist/CNAME", "blackwood.io")
+FileUtils.cp_r 'src/favicons/.', 'dist'
+
 
 puts "Built at " + Time.now.to_s
