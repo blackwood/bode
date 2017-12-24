@@ -1,64 +1,65 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
+import React from "react";
+import PropTypes from "prop-types";
+import Link from "gatsby-link";
+import Helmet from "react-helmet";
 
-import './index.css'
+import "./index.css";
+
+{
+  /*
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+*/
+}
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
+  <div>
+    <h1 className="main-title center center-column">
+      <Link
+        to="/"
+        style={{
+          textDecoration: "none"
+        }}
+      >
+        Baze Blackwood
+      </Link>
+    </h1>
   </div>
-)
+);
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="BAZE BLACKWOOD"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: "description",
+          content:
+            "Baze makes internet arts and musics. Working on websites and tools for likeminded folx."
+        },
+        { name: "keywords", content: "internet, music, art" }
       ]}
     />
     <Header />
     <div
       style={{
-        margin: '0 auto',
+        margin: "0 auto",
         maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        padding: "0px 1.0875rem 1.45rem",
+        paddingTop: 0
       }}
     >
       {children()}
     </div>
   </div>
-)
+);
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+  children: PropTypes.func
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
