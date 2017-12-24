@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Social from '../includes/social'
 import TinyLetter from '../includes/tinyletter'
+import avatar from '../assets/2018-drawn.png'
 
 const IndexPage = () => (
   <main id="main">
@@ -11,11 +12,7 @@ const IndexPage = () => (
           <p className="about-block">
             producer <span>•</span> musician <span>•</span> web guy{' '}
           </p>
-          <img
-            width="300"
-            height="300"
-            src="https://raw.githubusercontent.com/blackwood/files/master/avatar2017.jpg"
-          />
+          <img width="300" height="300" src={avatar} />
           <Social />
         </div>
         <div className="grid__col--1-of-2 grid__col grid__col--am">
