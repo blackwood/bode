@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
-import "./index.css";
+import './index.css'
 
 {
   /*
@@ -22,14 +22,14 @@ const Header = () => (
       <Link
         to="/"
         style={{
-          textDecoration: "none"
+          textDecoration: 'none',
         }}
       >
         Baze Blackwood
       </Link>
     </h1>
   </div>
-);
+)
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -37,29 +37,29 @@ const TemplateWrapper = ({ children }) => (
       title="BAZE BLACKWOOD"
       meta={[
         {
-          name: "description",
+          name: 'description',
           content:
-            "Baze makes internet arts and musics. Working on websites and tools for likeminded folx."
+            'Baze makes internet arts and musics. Working on websites and tools for likeminded folx.',
         },
-        { name: "keywords", content: "internet, music, art" }
+        { name: 'keywords', content: 'internet, music, art' },
       ]}
     />
     <Header />
     <div
       style={{
-        margin: "0 auto",
+        margin: '0 auto',
         maxWidth: 960,
-        padding: "0px 1.0875rem 1.45rem",
-        paddingTop: 0
+        padding: '0px 1.0875rem 1.45rem',
+        paddingTop: 0,
       }}
     >
       {children()}
     </div>
   </div>
-);
+)
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
+  children: PropTypes.func,
+}
 
-export default TemplateWrapper;
+export default TemplateWrapper
