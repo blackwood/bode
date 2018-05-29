@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Social = () => (
   <ul className="social-links">
@@ -55,6 +55,6 @@ const Social = () => (
       </a>
     </li>
   </ul>
-)
+);
 
-export default Social
+export default Social;
