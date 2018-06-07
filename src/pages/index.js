@@ -25,20 +25,13 @@ const IndexPage = ({ data }) => (
                 <b>about baze:</b>
               </p>
               <p>
-                Making internet arts and musics. Working on websites and tools
-                for likeminded folx.
+                Apprentice at <a href="https://www.plaiddogrecording.com/">Plaid Dog Recording</a>. JavaScript nerd at <a href="https://www.zipcar.com/">Zipcar</a>. Music theory enthusiast and burgeoning sound designer. 
               </p>
-              <p>
-                Baze also writes and records{" "}
-                <a href="https://soundcloud.com/bazeblackwood">music</a>, too.
-                You might have heard him play saxophone with The New Limits once
-                in a while.
-              </p>
-              <p>Soon-to-be audio apprentice at Plaid Dog Studio. Look out.</p>
+              <p>Check out my most recent album:</p>
+              <iframe src="https://open.spotify.com/embed?uri=spotify:album:1DakDR6rvgP92duS0hcCoD" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
               <p>
                 Follow on{" "}
-                <a href="https://twitter.com/bazeblackwood">Twitter</a>, duh. RT
-                and follow and like and shit.
+                <a href="https://twitter.com/bazeblackwood">Twitter</a>.
               </p>
             </div>
           </div>
