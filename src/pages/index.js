@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
+import avatar from "../assets/avatar.png";
 import Social from "../includes/social";
 import TinyLetter from "../includes/tinyletter";
 
@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
           <img
             width="300"
             height="300"
-            src="https://raw.githubusercontent.com/blackwood/files/master/avatar2017.jpg"
+            src={avatar}
           />
           <Social />
         </div>
