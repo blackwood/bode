@@ -1,0 +1,27 @@
+<article class="article ma-v_m">
+    <header>
+        <h3>
+            <a href="{{post.url}}">{{post.title}}</a>
+        </h3>
+        <!-- <div>
+                <div>{{ post.date | date: "%b %-d, %Y" }}</div>
+            </div> -->
+    </header>
+    <div>
+        {% if post.meta %}
+        <p>{{post.meta}}</p>
+        {% elsif post.excerpt %}
+        <p>{{post.excerpt}}</p>
+        {% elsif post.stub %}
+        <p>{{post.content}}</p>
+        {% endif %}
+    </div><!-- /.Teaser__excerpt -->
+    <!-- /.Teaser__textGroup -->
+    <!-- {% if post.image_path %} -->
+    <!-- <div>
+        <a href="">
+            <img src="{{post.image_path}}" alt="">
+        </a>
+    </div> -->
+    <!-- {% endif %} -->
+</article>
