@@ -2,6 +2,7 @@
 layout: post
 title: Arc Iris at Aeronaut Beer Garden, September 7, 2018
 date: 2018-09-09 18:52 -0400
+meta: In which the author reviews the last two songs of a band they decided to see at the last minute on a regular old Friday.
 ---
 
 As I approach the outdoor beer garden, my anxiety creeps in, like a time-lapse video of moss or maggots consuming a desiccated mammal. I relieve my under-inflated bicycle tires of my 225 pounds of person and inch closer to the performance venue, a handful of concrete benches in a subtle slope pointing at the band Arc Iris, who have the rowdy crowd simultaneously enraptured and giddily enjoying one of the final days of summer, chaotically barking and cross-talking each other, a din, which from a distance, sounds faintly like heckling.
