@@ -3,7 +3,7 @@ layout: default
 permalink: /
 seo_title: baze blackwood on the net
 ---
-<div class="flex">
+<div class="flex ma-b_l">
     <div class="span-half text-center">
         <p class="ma-v_m">
             producer <span>•</span> musician <span>•</span> web guy&nbsp;
@@ -63,9 +63,10 @@ seo_title: baze blackwood on the net
             <p>...and follow me on <a href="https://twitter.com/bazeblackwood">twitter</a>!</p>
         </div>
     </div>
-    <div>
-        {% for post in site.posts %}
-            {% include teaser.html %}
-        {% endfor %}
-    </div>
+</div>
+
+<div>
+    {% for post in site.posts %}
+        {% include teaser.html %}
+    {% endfor %}
 </div>
