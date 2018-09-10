@@ -1,0 +1,33 @@
+---
+layout: default
+permalink: /search
+seo_title: search baze blackwood on the net
+---
+<divid=="search-box">
+  <!-- SearchBox widget will appear here -->
+</div>
+
+<div id="hits">
+  <!-- Hits widget will appear here -->
+</div>
+
+<script>
+  const search = instantsearch(options);
+
+  // initialize SearchBox
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      placeholder: 'Search for products'
+    })
+  );
+
+  // initialize hits widget
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits'
+    })
+  );
+
+  search.start();
+</script>
