@@ -16,7 +16,7 @@ seo_title: search baze blackwood on the net
   search.addWidget(
     instantsearch.widgets.searchBox({
       container: '#search-box',
-      placeholder: 'Search for products'
+      placeholder: 'search baze blackwood on the net'
     })
   );
 
@@ -26,7 +26,7 @@ seo_title: search baze blackwood on the net
       container: '#hits',
       templates: {
         empty: 'No results',
-        item: '<em>Hit {{objectID}}</em>: {{{_highlightResult.name.value}}}'
+        item: '<em>{{title}}</em>: {{_highlightResult.name.value}}'
       }
     })
   );
