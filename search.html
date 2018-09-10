@@ -23,7 +23,11 @@ seo_title: search baze blackwood on the net
   // initialize hits widget
   search.addWidget(
     instantsearch.widgets.hits({
-      container: '#hits'
+      container: '#hits',
+      templates: {
+        empty: 'No results',
+        item: '<em>Hit {{objectID}}</em>: {{{_highlightResult.name.value}}}'
+      }
     })
   );
 
