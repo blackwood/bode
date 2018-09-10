@@ -3,16 +3,14 @@ layout: default
 permalink: /search
 seo_title: search baze blackwood on the net
 ---
-<div id="search-box">
-  <!-- SearchBox widget will appear here -->
-</div>
-
-<div id="hits">
-  <!-- Hits widget will appear here -->
-</div>
-
+<div id="search-box"></div>
+<div id="hits"></div>
 <script>
-  const search = instantsearch({});
+  const search = instantsearch({
+    appId: 'OYRT4AO3TM',
+    apiKey: 'e3afaac8323ecd81552a76be7fa77635',
+    indexName: 'blackwood'
+  });
 
   // initialize SearchBox
   search.addWidget(
