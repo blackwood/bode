@@ -2,7 +2,13 @@ url: https://blackwood.io
 name: Miles Blackwood Robinson
 description: blackwood is an exploration of music, code, design, words; the thoughts and projects of Miles Blackwood, a developer, educator and artist living in Boston, MA
 title: baze blackwood on the net
+
 include: [_redirects]
+
+algolia:
+  application_id: OYRT4AO3TM
+  index_name:     blackwood
+
 defaults:
   - scope:
       path: "assets/img"
