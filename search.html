@@ -5,32 +5,9 @@ seo_title: search baze blackwood on the net
 ---
 <div id="search-box"></div>
 <div id="hits"></div>
-<img src="/assets/img/search-by-algolia-light-background-b5afedfa.png"
-<script>
-  const search = instantsearch({
-    appId: 'OYRT4AO3TM',
-    apiKey: 'e3afaac8323ecd81552a76be7fa77635',
-    indexName: 'blackwood'
-  });
-
-  // initialize SearchBox
-  search.addWidget(
-    instantsearch.widgets.searchBox({
-      container: '#search-box',
-      placeholder: 'search baze blackwood on the net'
-    })
-  );
-
-  // initialize hits widget
-  search.addWidget(
-    instantsearch.widgets.hits({
-      container: '#hits',
-      templates: {
-        empty: 'No results',
-//         item: '<em>{{title}}</em>: {{_highlightResult.name.value}}'
-      }
-    })
-  );
-
-  search.start();
-</script>
+<img src="/assets/img/search-by-algolia-light-background-b5afedfa.png" />
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.1"></script>
+<script src="/assets/js/search.js"></script>
+<style>.ais-Highlight {
+  background: lightblue;
+}</style>
