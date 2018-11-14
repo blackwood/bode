@@ -10,7 +10,7 @@ seo_title:
 meta: What&#8217;s left of the rail that used to run through what is now the Northern Strand, facing towards Boston and Somerville.The other direction, unadulterated, well-paved bike path. 
 ---
 
-*This post on the Northern Strand bike highway originally appeared on [Fleet & North](http://fleetandnorth.com/2015/05/23/riding-bostons-great-bike-highway-that-isnt-part-i/)*
+*This post on the Northern Strand bike highway originally appeared on [Fleet & North](https://fleetandnorth.com/2015/05/23/riding-bostons-great-bike-highway-that-isnt-part-i/)*
 
 ### The ethics of bike highways.
 

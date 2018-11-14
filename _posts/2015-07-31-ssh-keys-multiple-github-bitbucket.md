@@ -54,4 +54,4 @@ git clone git@customname:yourusername/yourproject.git
 
 Your project should be preconfigured to use the proper ssh key and user for the particular service! Add and configure as many of these Host aliases to your ~/.ssh/config as required per each of your projects.
 
-Source: [Ask Ubuntu: Multiple SSH keys and hosts](http://askubuntu.com/questions/269140/how-to-use-multiple-ssh-keys-with-different-accounts-and-hosts)
+Source: [Ask Ubuntu: Multiple SSH keys and hosts](https://askubuntu.com/questions/269140/how-to-use-multiple-ssh-keys-with-different-accounts-and-hosts)
