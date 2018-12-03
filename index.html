@@ -14,22 +14,46 @@ seo_title: baze blackwood on the net
       <h1 class="f4 bold center mw5">Links</h1>
       <ul class="list pl0 ml0 center mw5">
         <li class="bb b--light-silver">
-          <a class="ph3 pv2 db link bg-animate hover-bg-lightest-blue" href="https://open.spotify.com/artist/6RAWQcmkwprrKaGw5jSeNN?si=Awij_yWXSkuRRs0RvQU_GA">Spotify</a>
+          <a
+            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
+            href="https://open.spotify.com/artist/6RAWQcmkwprrKaGw5jSeNN?si=Awij_yWXSkuRRs0RvQU_GA"
+            >Spotify</a
+          >
         </li>
         <li class="bb b--light-silver">
-          <a class="ph3 pv2 db link bg-animate hover-bg-lightest-blue" href="https://soundcloud.com/bazeblackwood">Soundcloud</a>
+          <a
+            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
+            href="https://soundcloud.com/bazeblackwood"
+            >Soundcloud</a
+          >
         </li>
         <li class="bb b--light-silver">
-          <a class="ph3 pv2 db link bg-animate hover-bg-lightest-blue" href="https://www.youtube.com/channel/UCEZ0udCbrp6TbJ0sWbrGEjw">YouTube</a>
+          <a
+            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
+            href="https://www.youtube.com/channel/UCEZ0udCbrp6TbJ0sWbrGEjw"
+            >YouTube</a
+          >
         </li>
         <li class="bb b--light-silver">
-          <a class="ph3 pv2 db link bg-animate hover-bg-lightest-blue" href="https://github.com/blackwood">GitHub</a>
+          <a
+            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
+            href="https://github.com/blackwood"
+            >GitHub</a
+          >
         </li>
         <li class="bb b--light-silver">
-          <a class="ph3 pv2 db link bg-animate hover-bg-lightest-blue" href="https://www.patreon.com/bazeblackwood">Become a Patreon Supporter</a>
+          <a
+            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
+            href="https://www.patreon.com/bazeblackwood"
+            >Become a Patreon Supporter</a
+          >
         </li>
         <li class="">
-          <a class="ph3 pv2 db link bg-animate hover-bg-lightest-blue" href="https://soundbetter.com/profiles/138314-miles-blackwood-robinson">Hire Me</a>
+          <a
+            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
+            href="https://soundbetter.com/profiles/138314-miles-blackwood-robinson"
+            >Hire Me</a
+          >
         </li>
       </ul>
     </div>
@@ -59,6 +83,22 @@ seo_title: baze blackwood on the net
         ...and follow me on
         <a href="https://twitter.com/bazeblackwood">twitter</a>!
       </p>
+    </div>
+    <div class="mics">
+      <h4 class="mb2">Previous/Upcoming Shows</h4>
+      {% assign last = site.data.mics.records | size %}
+      {% for mic in site.data.mics.records %}
+      <div>
+        <p>{{ mic.fields.date | date_to_string: "ordinal", "US" }}</p>
+        <p>{{ mic.fields.location }}</p>
+        {% assign showtime = mic.fields.date | date: '%Y%m%d' %} 
+        {% assign nowtime = site.time | date: '%Y%m%d' %}
+        {% if showtime >= nowtime %}
+          <a class="b link" href="mailto:miles@blackwood.io?subject=I'm coming to the show at {{ mic.fields.location }}!&body=What time do you go on?">RSVP!</p>
+        {% endif %} 
+        {% if forloop.index != last %}<hr class="mv2" />{% endif %}
+      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
