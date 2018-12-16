@@ -23,3 +23,25 @@ So, digital music production has basically created a few power users, while the 
 What I think the right approach is, and I admit I am taking a page out of (the great) Steve Albini's book here, is that the whole hourly in-and-out model of studio production is inherently morally bankrupt. What we need is to build records together, at a pace where the artist isn't locked out of the process, where producer and performer can fit into a groove together. But while I certainly depart from Albini's hardline analog-only approach, it's explicitly because I think the "democratization" of audio recording has yet to see it's full fruition. In order for a performer to find the rhythm of the artful dance of recording, they can't feel rushed, left out of the technical aspect or entirely treated as talent in the context of bringing their music to life.
 
 With these notions in mind I've committed to making records that allow the artist to understand how to breathe life into their recorded work, to do more with less equipment and more time. To let inspiration of the artist generate the energy of the process. If it sounds good, it is good. With that, if you want to work together, feel free to drop a line.
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>How do you think I might be able to help?<select name="project[]" multiple>
+      <option value="producer">Producer</option>
+      <option value="session">Session Musician</option>
+      <option value="edit">Audio Cleanup/Correction/Mix & Master</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
