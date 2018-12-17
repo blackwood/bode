@@ -51,9 +51,14 @@ With these notions in mind I've committed to making records that allow the artis
     class="pa2 input-reset ba bg-transparent w-100"
     ></textarea></label>
   </p>
+  <input type="hidden" name="ad" id="ad" value="" />
   <p class="w-100 pt2 ">
     <input type="submit" class="button-reset w-50 pointer input-reset db center b ph3 pv2 input-reset ba b--black bg-transparent" value="Send" />
   </p>
 </form>
 <hr class="pv1" />
-
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const ad = params.get('ad');
+  document.getElementById('ad').value = ad;
+</script>
