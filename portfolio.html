@@ -24,7 +24,7 @@ seo_title: works
     </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-    <a href="#0" class="ph2 ph0-ns pb3 link db">
+    <a href="#img1" class="ph2 ph0-ns pb3 link db">
       <div class="aspect-ratio aspect-ratio--1x1">
         <img
           style="background-image:url(/assets/img/keytar-koala.png);"
@@ -33,6 +33,9 @@ seo_title: works
       </div>
       <h3 class="f5 f4-ns mb0 black-90">Keytar Koala</h3>
       <h3 class="f6 f5 fw4 mt2 black-60">Digital Drawing</h3>
+    </a>
+    <a href="#_" class="lightbox" id="img1">
+      <img src="/assets/img/keytar-koala.png" />
     </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
@@ -67,7 +70,7 @@ seo_title: works
     </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-    <a href="#0" class="ph2 ph0-ns pb3 link db">
+    <a href="#img2" class="ph2 ph0-ns pb3 link db">
       <div class="aspect-ratio aspect-ratio--1x1">
         <img
           style="background-image:url(/assets/img/chimp-w-bagpipe.png);"
@@ -77,9 +80,12 @@ seo_title: works
       <h3 class="f5 f4-ns mb0 black-90">Bagpipe Chimp</h3>
       <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
     </a>
+    <a href="#_" class="lightbox" id="img2">
+      <img src="/assets/img/chimp-w-bagpipe.png" />
+    </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-    <a href="#0" class="ph2 ph0-ns pb3 link db">
+    <a href="#img3" class="ph2 ph0-ns pb3 link db">
       <div class="aspect-ratio aspect-ratio--1x1">
         <img
           style="background-image:url(/assets/img/Hadzhidimovo.png);"
@@ -88,6 +94,9 @@ seo_title: works
       </div>
       <h3 class="f5 f4-ns mb0 black-90">All Wrong, Bear — Hadzhidimovo</h3>
       <h3 class="f6 f5 fw4 mt2 black-60">Album Cover — Graphic Design</h3>
+    </a>
+    <a href="#_" class="lightbox" id="img3">
+      <img src="/assets/img/Hadzhidimovo.png" />
     </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
@@ -108,7 +117,7 @@ seo_title: works
     </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-    <a href="#0" class="ph2 ph0-ns pb3 link db">
+    <a href="#img4" class="ph2 ph0-ns pb3 link db">
       <div class="aspect-ratio aspect-ratio--1x1">
         <img
           style="background-image:url(/assets/img/space-dino.png);"
@@ -117,6 +126,9 @@ seo_title: works
       </div>
       <h3 class="f5 f4-ns mb0 black-90">Space Sax Dino</h3>
       <h3 class="f6 f5 fw4 mt2 black-60">Digital Drawing</h3>
+    </a>
+    <a href="#_" class="lightbox" id="img4">
+      <img src="/assets/img/space-dino.png" />
     </a>
   </article>
   <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
@@ -149,3 +161,36 @@ seo_title: works
     </a>
   </article>
 </section>
+<style>
+  /** LIGHTBOX MARKUP **/
+
+  .lightbox {
+    /** Default lightbox to hidden */
+    display: none;
+
+    /** Position and style */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .lightbox img {
+    /** Pad the lightbox image */
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 2%;
+  }
+
+  .lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+
+    /** Unhide lightbox **/
+    display: block;
+  }
+</style>
