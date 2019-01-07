@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body class="sans-serif">
     <main id="main">
-      <header class="ma-v_m">
-        <a href="/">
-          <h1 class="bg-prime-1-h text-hero_m text-center bo_s">
-            BAZE BLACKWOOD
-          </h1>
-        </a>
-      </header>
-      {{ content }}
+      {% include header.html %} {{ content }}
       <div class="pa4-l">
         <form
           class="bg-light-blue mw7 center pa4 br2-ns ba b--black-10"
@@ -43,7 +36,10 @@
         </form>
       </div>
       <div class="pb3 pt4 mw-100 tc">
-        <span class="silver">&copy; {{ site.time | date: '%Y' }} <a href="/" class="silver">Miles "Baze" Blackwood Robinson</a></span>
+        <span class="silver"
+          >&copy; {{ site.time | date: '%Y' }}
+          <a href="/" class="silver">Miles "Baze" Blackwood Robinson</a></span
+        >
       </div>
     </main>
   </body>
