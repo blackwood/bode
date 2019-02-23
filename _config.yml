@@ -5,12 +5,18 @@ title: baze blackwood on the net
 
 include: [_redirects]
 
+gems:
+  - jekyll-srcset
+  - jekyll-sitemap
+srcset:
+  cache: '/tmp/images'
+
 algolia:
   application_id: OYRT4AO3TM
-  index_name:     blackwood
+  index_name: blackwood
 
 defaults:
   - scope:
-      path: "assets/img"
+      path: 'assets/img'
     values:
       image: true
