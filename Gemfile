@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-gem 'jekyll-srcset'
+gem 'jekyll-srcset2'
 gem 'jekyll-sitemap'
 gem "jekyll"
 group :jekyll_plugins do
