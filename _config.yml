@@ -8,8 +8,9 @@ include: [_redirects]
 gems:
   - jekyll-sitemap
 
-srcset:
-  cache: '/tmp/images'
+picture:
+  source: 'assets/img'
+  output: 'assets/generated'
 
 algolia:
   application_id: OYRT4AO3TM
