@@ -6,8 +6,8 @@ title: baze blackwood on the net
 include: [_redirects]
 
 gems:
-  - jekyll-srcset
   - jekyll-sitemap
+
 srcset:
   cache: '/tmp/images'
 
