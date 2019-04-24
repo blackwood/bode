@@ -3,4 +3,4 @@
 curl "https://api.airtable.com/v0/appHVDF3IXkjvKH5C/mics?maxRecords=3&view=Grid%20view" -H "Authorization: Bearer keysoAEFQycV4Cw25" -o _data/mics.json && 
 jekyll build && 
 bundle exec jekyll algolia && 
-cat _site/index.html | critical --base _site --inline > index.html 
+mv _site/index.html _site/index.uncritical.html && cat _site/index.uncritical.html | critical --inline > _site/index.html
