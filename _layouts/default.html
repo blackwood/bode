@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
   <body class="sans-serif">
     <main id="main">
       {% include header.html %} {{ content }}
@@ -37,8 +39,7 @@
       </div>
       <div class="pb3 pt4 mw-100 tc">
         <span class="silver"
-          >&copy; {{ site.time | date: '%Y' }}
-          <a href="/" class="silver">Miles "Baze" Blackwood Robinson</a></span
+          >&copy; {{ site.time | date: '%Y' }} <a href="/" class="silver">Miles "Baze" Blackwood Robinson</a></span
         >
       </div>
     </main>
