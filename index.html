@@ -107,4 +107,5 @@ seo_title: baze blackwood on the net
   </div>
 </div>
 
-<div>{% for post in site.posts %} {% include teaser.html %} {% endfor %}</div>
+<div>{% for post in site.posts limit:3 %} {% include teaser.html %} {% endfor %}</div>
+<div><a href="/search">Find Older Posts</a></div>
