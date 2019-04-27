@@ -4,8 +4,7 @@ description: blackwood is an exploration of music, code, design, words; the thou
 title: baze blackwood on the net
 
 include: [_redirects]
-
-gems:
+plugins:
   - jekyll-sitemap
 
 picture:
