@@ -9,7 +9,7 @@ seo_title: objects
   Herein are things which I have, in a Kondonian fashion, removed from my person (whether through gifting, donating or
   recycling) and brief observational descriptions of their nature, feelings evoked or lack thereof.
 </p>
-{% for objects in site.objectss %}
+{% for objects in site.objects %}
 <h2>{{ objects.name }}</h2>
 <p>{{ objects.content | markdownify }}</p>
 {% endfor %}
