@@ -20,3 +20,7 @@ defaults:
       path: 'assets/img'
     values:
       image: true
+
+collections:
+  objects:
+    output: true
