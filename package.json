@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "build-tools",
   "main": " ",
-  "dependencies": {},
+  "dependencies": {
+    "netlify-cli": "^2.11.15"
+  },
   "devDependencies": {
     "critical": "^1.3.4"
   },
