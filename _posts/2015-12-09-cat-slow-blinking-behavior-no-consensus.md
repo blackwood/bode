@@ -7,7 +7,7 @@ permalink: /slow-blinking-cat-behavior-no-consensus/
 categories:
   - words
 keyword: slow blinking cat consensus
-seo_title:
+seo_title: 'Cat Slow Blinking Behavior: No Consensus?'
 meta: "Google 'slow blink cat' and you'll quickly get\_dozens of results purporting\_that this behavior is a deliberate act of affection. Does the science add up?"
 image_path: /uploads/17a33bc2eea712dfcb1388b5c89400c5.jpeg
 ---
@@ -16,13 +16,13 @@ image_path: /uploads/17a33bc2eea712dfcb1388b5c89400c5.jpeg
 
 Google "slow blink cat" and you'll shortly get dozens of results purporting that this behavior–where the domestic animal shuts its eyes intentionally and slowly, while looking at someone–is a deliberate act of affection on behalf of the animal. If this cursory search were all you had, you wouldn't doubt it–indeed, I'd taken it for granted myself for many years that this was the truth.
 
-The sites in the results page sport names like [catwisdom101.com](catwisdom101.com/slow-blink-cat-kiss-2/), [petful.com](){: .cc-active}, and you'll even find commenters extolling the virtue of exchanging these slow blinks with their cats in the [comment section](https://jacksongalaxy.com/2011/05/07/best-video-ever/) of the personal blog of Jackson Galaxy, über-hip celebrity cat behaviorist, who has been known to promote the idea on his television show. What you'll note, however, in all of these instances, is the conspicuous absence of any *actual* *behavior studies*.
+The sites in the results page sport names like [catwisdom101.com](catwisdom101.com/slow-blink-cat-kiss-2/), [petful.com](){: .cc-active}, and you'll even find commenters extolling the virtue of exchanging these slow blinks with their cats in the [comment section](https://jacksongalaxy.com/2011/05/07/best-video-ever/) of the personal blog of Jackson Galaxy, über-hip celebrity cat behaviorist, who has been known to promote the idea on his television show. What you'll note, however, in all of these instances, is the conspicuous absence of any _actual_ _behavior studies_.
 
 ![Jackson Galaxy, the Guy Fieri of Cats](/uploads/jacksongalaxy.png)
 
-*Jackson Galaxy, the Guy Fieri of Cats*
+_Jackson Galaxy, the Guy Fieri of Cats_
 
-With a little more research, there's an understandable basis for the conclusion. For example, in the [Manual of Clinical Behavioral Medicine for Dogs and Cats](https://books.google.com/books?id=HHoK9PKpqn4C&amp;lpg=PP1&amp;pg=PA348#v=onepage&amp;q&amp;f=false), the behavior is highly associated with a relaxed cat. Using this argument as your logical starting point, you could infer that the animal, once relaxed, may "communicate" its affection toward us by slow-blinking while gazing at us, and that the cat would conclude the same by our blinking back at it.
+With a little more research, there's an understandable basis for the conclusion. For example, in the [Manual of Clinical Behavioral Medicine for Dogs and Cats](https://books.google.com/books?id=HHoK9PKpqn4C&lpg=PP1&pg=PA348#v=onepage&q&f=false), the behavior is highly associated with a relaxed cat. Using this argument as your logical starting point, you could infer that the animal, once relaxed, may "communicate" its affection toward us by slow-blinking while gazing at us, and that the cat would conclude the same by our blinking back at it.
 
 Yet, when I spoke with Sarah Ellis, a cat behavior expert who appeared on Nat Geo Wild's "The Truth About Cats", she said the subject was still in need of more research. None among the studies she knew of hypothesized it as a communicative action on behalf of the cat. One was on the subject of techniques used by shelters to determine whether a cat was domesticated or not; in that study, slow blinking was rated highly. Likewise, in the study coauthored by Ellis herself, the behavior was given a high composite score among behaviors of a cat as indication they are likely to respond well to handling.
 

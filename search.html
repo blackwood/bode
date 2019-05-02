@@ -6,14 +6,54 @@ seo_title: search baze blackwood on the net
 
 <div id="search-box"></div>
 <div id="hits"></div>
-<img
-  src="/assets/img/search-by-algolia-light-background-b5afedfa.png"
-  alt="Algolia logo."
-/>
+<img src="/assets/img/search-by-algolia-light-background-b5afedfa.png" alt="Algolia logo." />
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.1"></script>
 <script src="/assets/js/search.js"></script>
 <style>
   .ais-Highlight {
     background: lightblue;
+  }
+  .ais-search-box {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .ais-search-box--input {
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #d0cfce;
+    outline: none;
+  }
+  .ais-search-box--input:focus {
+    border: 1px solid #008abf;
+    transition: 0.35s ease;
+    color: #008abf;
+  }
+  .ais-search-box--input:focus::-webkit-input-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+  }
+  .ais-search-box--input:focus::-moz-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+  }
+  .ais-search-box--input:focus:-ms-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+  }
+
+  .ais-search-box--magnifier-wrapper,
+  .ais-search-box--reset-wrapper {
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    top: -36px;
+    right: 5px;
   }
 </style>

@@ -3,6 +3,7 @@ layout: post
 title: Arc Iris at Aeronaut Beer Garden, September 7, 2018
 date: 2018-09-09 18:52 -0400
 permalink: /arc-iris-at-aeronaut-beer-garden-september/
+seo_title: Arc Iris at Aeronaut Beer Garden, September 7, 2018
 meta: In which the author reviews the last two songs of a band they decided to see at the last minute on a regular old Friday.
 ---
 

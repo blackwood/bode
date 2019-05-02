@@ -6,7 +6,7 @@ permalink: /bostons-great-bike-highway-isnt-i/
 categories:
   - words
 keyword: bike highway
-seo_title: ''
+seo_title: 'Riding Boston’s Great Bike Highway that Isn’t: Part I'
 meta: 'The Northern Strand bike highway North of Boston is coming to fruition on an abandoned railway passing through Everett, Malden, Saugus and Revere.'
 ---
 

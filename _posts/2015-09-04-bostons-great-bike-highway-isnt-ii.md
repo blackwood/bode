@@ -6,7 +6,7 @@ permalink: /bostons-great-bike-highway-isnt-ii/
 categories:
   - words
 keyword: authenticity
-seo_title:
+seo_title: Riding Boston’s Great Bike Highway that Isn’t Pt. II
 meta: What&#8217;s left of the rail that used to run through what is now the Northern Strand, facing towards Boston and Somerville.The other direction, unadulterated, well-paved bike path.
 ---
 

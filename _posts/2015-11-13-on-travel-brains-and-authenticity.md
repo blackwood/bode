@@ -6,7 +6,7 @@ permalink: /on-travel-brains-and-authenticity/
 categories:
   - words
 keyword: authenticity
-seo_title:
+seo_title: 'On Travel, Brains and Authenticity'
 meta: "A journey is a jarring event, and brains are good for jarring. My lesson learned on authenticity from two days of travel -- how to leave one's door ajar."
 ---
 
