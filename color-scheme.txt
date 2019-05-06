@@ -1,0 +1,5 @@
+#F2D33B // sandy
+#444585 // dark slate
+#CE558D // pale violet
+#93A8BE // light slate
+#64BC6B // medium sea green
