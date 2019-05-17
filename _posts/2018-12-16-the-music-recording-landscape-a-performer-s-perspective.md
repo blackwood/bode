@@ -28,17 +28,17 @@ With these notions in mind I've committed to making records that allow the artis
 
 <form name="contact" method="POST" data-netlify="true" class="form-horizontal inner-fit">
   <div class="form-group">
-    <label class="form-label">Your Name: </label>
+    <label class="form-label" for="name">Your Name: </label>
     <input class="form-input" type="text" name="name" />
-    <label class="form-label">Your Email: </label>
+    <label class="form-label" for="email">Your Email: </label>
     <input class="form-input" type="email" name="email" />
-    <label class="form-label">How do you think I might be able to help?</label>
+    <label class="form-label" for="project[]">How do you think I might be able to help?</label>
     <select class="form-select" name="project[]" multiple>
       <option value="producer">Producer</option>
       <option value="session">Session Musician</option>
       <option value="edit">Audio Cleanup/Correction/Mix & Master</option>
     </select>
-    <label class="form-label">Message:</label>
+    <label class="form-label" for="message">Message:</label>
     <textarea class="form-input" name="message"></textarea>
     <input class="form-input" type="hidden" name="ad" id="ad" value="" />
     <div class="py-2 w-100">
