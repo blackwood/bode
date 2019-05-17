@@ -17,7 +17,7 @@ search.addWidget(
   instantsearch.widgets.hits({
     container: '#hits',
     templates: {
-      item: '<h1>{{seo_title}}</h1><p>{{excerpt_text}}</p><a href="{{permalink}}">more</a>',
+      item: '<a href="{{permalink}}"><h2>{{seo_title}}</h2></a><p>{{excerpt_text}}</p>',
       empty: 'No results'
     }
   })

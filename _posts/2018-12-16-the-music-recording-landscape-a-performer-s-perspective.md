@@ -26,37 +26,26 @@ What I think the right approach is, and I admit I am taking a page out of (the g
 
 With these notions in mind I've committed to making records that allow the artist to understand how to breathe life into their recorded work, to do more with less equipment and more time. To let inspiration of the artist generate the energy of the process. If it sounds good, it is good. With that, if you want to work together, feel free to drop a line.
 
-<form name="contact" method="POST" data-netlify="true" class="form mw6 center">
-  <p>
-    <label><p>Your Name:</p> <input type="text" name="name" 
-    class="pa2 input-reset ba bg-transparent w-100"
-    /></label>   
-  </p>
-  <p>
-    <label><p>Your Email:</p> <input type="email" name="email" 
-    class="pa2 input-reset ba bg-transparent w-100"
-    /></label>
-  </p>
-  <p>
-    <label><p>How do you think I might be able to help?</p><select 
-    class="pa2 input-reset ba bg-transparent w-100"
-     name="project[]" multiple>
+<form name="contact" method="POST" data-netlify="true" class="form-horizontal inner-fit">
+  <div class="form-group">
+    <label class="form-label">Your Name: </label>
+    <input class="form-input" type="text" name="name" />
+    <label class="form-label">Your Email: </label>
+    <input class="form-input" type="email" name="email" />
+    <label class="form-label">How do you think I might be able to help?</label>
+    <select class="form-select" name="project[]" multiple>
       <option value="producer">Producer</option>
       <option value="session">Session Musician</option>
       <option value="edit">Audio Cleanup/Correction/Mix & Master</option>
-    </select></label>
-  </p>
-  <p>
-    <label><p>Message:</p> <textarea name="message" 
-    class="pa2 input-reset ba bg-transparent w-100"
-    ></textarea></label>
-  </p>
-  <input type="hidden" name="ad" id="ad" value="" />
-  <p class="w-100 pt2 ">
-    <input type="submit" class="button-reset w-50 pointer input-reset db center b ph3 pv2 input-reset ba b--black bg-transparent" value="Send" />
-  </p>
+    </select>
+    <label class="form-label">Message:</label>
+    <textarea class="form-input" name="message"></textarea>
+    <input class="form-input" type="hidden" name="ad" id="ad" value="" />
+    <div class="py-2 w-100">
+      <input class="btn btn-primary w-100" type="submit" value="Send" />
+    </div>
+  </div>
 </form>
-<hr />
 <script>
   const params = new URLSearchParams(window.location.search);
   const ad = params.get('ad');

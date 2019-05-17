@@ -4,108 +4,57 @@ permalink: /
 seo_title: baze blackwood on the net
 ---
 
-<div class="flex ma-b_l justify-around">
-  <div class="w-50">
-    <p class="ma-v_m tc">
-      producer <span>•</span> musician <span>•</span> web guy&nbsp;
-    </p>
-    <div style="max-width:300px;margin: 0 auto;">
-      {% picture 
-        avatar.png 
-        --alt Baze's avatar.
-        %}
-    </div>
-    <div class="">
-      <h1 class="f4 bold center mw5">Links</h1>
-      <ul class="list pl0 ml0 center mw5">
-        <li class="bb b--light-silver">
-          <a
-            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
-            href="https://open.spotify.com/artist/6RAWQcmkwprrKaGw5jSeNN?si=Awij_yWXSkuRRs0RvQU_GA"
-            >Spotify</a
-          >
-        </li>
-        <li class="bb b--light-silver">
-          <a
-            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
-            href="https://soundcloud.com/bazeblackwood"
-            >Soundcloud</a
-          >
-        </li>
-        <li class="bb b--light-silver">
-          <a
-            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
-            href="https://www.youtube.com/channel/UCEZ0udCbrp6TbJ0sWbrGEjw"
-            >YouTube</a
-          >
-        </li>
-        <li class="bb b--light-silver">
-          <a
-            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
-            href="https://github.com/blackwood"
-            >GitHub</a
-          >
-        </li>
-        <li class="bb b--light-silver">
-          <a
-            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
-            href="https://www.patreon.com/bazeblackwood"
-            >Become a Patreon Supporter</a
-          >
-        </li>
-        <li class="">
-          <a
-            class="ph3 pv2 db link bg-animate hover-bg-lightest-blue"
-            href="https://soundbetter.com/profiles/138314-miles-blackwood-robinson"
-            >Hire Me</a
-          >
-        </li>
-      </ul>
+<div>
+  <div>
+    <div>{% picture avatar.png id="avatar" --alt Avatar. %}</div>
+    <div class="list btn-group btn-group-block std-margin-y">
+      <a class="btn" href="https://www.youtube.com/channel/UCEZ0udCbrp6TbJ0sWbrGEjw">YouTube</a>
+      <a class="btn" href="https://open.spotify.com/artist/6RAWQcmkwprrKaGw5jSeNN?si=Awij_yWXSkuRRs0RvQU_GA">Spotify</a>
+      <a class="btn" href="https://soundcloud.com/bazeblackwood">Soundcloud</a>
+      <a class="btn" href="https://github.com/blackwood">GitHub</a>
+      <a class="btn" href="https://www.patreon.com/bazeblackwood">Patreon</a>
+      <!-- <li><a href="https://soundbetter.com/profiles/138314-miles-blackwood-robinson">Hire Me </a></li> -->
     </div>
   </div>
-  <div class="w-50">
-    <div class="ma-v-auto">
-      <p class="text-center ma-v_m"><b>about baze:</b></p>
+  <div>
+    <div>
+      <h1>Hi. I'm Miles Blackwood Robinson.</h1>
       <p>
-        Apprentice at
-        <a href="https://www.plaiddogrecording.com/">Plaid Dog Recording</a>.
+        I'm an apprentice at
+        <a href="https://www.plaiddogrecording.com/">Plaid Dog Recording</a>, software engineering mentor, and technical consultant to an
+        <a href="https://humanmedia.org">NPR show</a>.
       </p>
-      <p>JavaScript nerd.</p>
-      <p>Music theory enthusiast and burgeoning sound designer.</p>
-      <p>I am interested in a lot of stuff. (see below)</p>
-      <p>Check out my most recent album:</p>
-      <!-- <iframe
-        title="Baze Blackwood on Spotify"
-        src="https://open.spotify.com/embed?uri=spotify:album:1DakDR6rvgP92duS0hcCoD"
-        width="300"
-        height="80"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media"
-      ></iframe> -->
       <p>
-        ...and follow me on
-        <a href="https://twitter.com/bazeblackwood">twitter</a>!
+        I'm a music theory enthusiast and burgeoning sound designer. Right now I'm working on a constructed musical language, and I just made a
+        <a href="https://youtu.be/lywCsGCAT2I">music video</a>.
       </p>
+      <p>And I write about all of those subjects and more!</p>
     </div>
-    <div class="mics">
-      <h4 class="mb2">Previous/Upcoming Shows</h4>
+    <!-- <div>
+    <h2>Previous/Upcoming Shows</h2>
+    <section class="grid-regular">
       {% assign last = site.data.mics.records | size %}
       {% for mic in site.data.mics.records %}
-      <div>
-        <p>{{ mic.fields.date | date_to_string: "ordinal", "US" }}</p>
-        <p>{{ mic.fields.location }}</p>
-        {% assign showtime = mic.fields.date | date: '%Y%m%d' %} 
+        <p>foo</p>
+        {% assign showtime = mic.fields.date | date: '%Y%m%d' %}
         {% assign nowtime = site.time | date: '%Y%m%d' %}
         {% if showtime >= nowtime %}
-          <a class="b link" href="mailto:miles@blackwood.io?subject=I'm coming to the show at {{ mic.fields.location }}!&body=What time do you go on?">RSVP!</p>
-        {% endif %} 
-        {% if forloop.index != last %}<hr class="mv2" />{% endif %}
-      </div>
+          <div class="show">
+            <p>{{ mic.fields.date | date_to_string: "ordinal", "US" }}</p>
+            <p>{{ mic.fields.location }}</p>
+            <a href="mailto:miles@blackwood.io?subject=I'm coming to the show at {{mic.fields.location}}!&amp;body=What time do you go on?">RSVP!</a>
+          {% endif %}
+        </div>
       {% endfor %}
-    </div>
+    </section>
+    </div> -->
   </div>
 </div>
-
-<div>{% for post in site.posts limit:3 %} {% include teaser.html %} {% endfor %}</div>
-<div><a href="/search">Find Older Posts</a></div>
+<div>
+  {% for post in site.posts limit:3 %}
+    {% include teaser.html %}
+  {% endfor %}
+</div>
+<div>
+  <a class="btn" href="/search">Find Older Posts</a>
+</div>
