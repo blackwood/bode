@@ -2,7 +2,7 @@
 title: 'Cat Slow Blinking Behavior: No Consensus?'
 author: Miles Blackwood
 layout: post
-tagline: "You don't know jack!"
+tagline: Our felines evade understanding once again.
 permalink: /slow-blinking-cat-behavior-no-consensus/
 categories:
   - words
@@ -12,13 +12,13 @@ meta: "Google 'slow blink cat' and you'll quickly get\_dozens of results purport
 image_path: /uploads/17a33bc2eea712dfcb1388b5c89400c5.jpeg
 ---
 
-![Stare into the cat eye, and generally the cat stares back.](/uploads/versions/17a33bc2eea712dfcb1388b5c89400c5---x----1828-1352x---.jpeg)
+{% picture 17a33bc2eea712dfcb1388b5c89400c5.jpeg class="mw-100" --alt Stare into the cat eye, and generally the cat stares back. %}
 
 Google "slow blink cat" and you'll shortly get dozens of results purporting that this behavior–where the domestic animal shuts its eyes intentionally and slowly, while looking at someone–is a deliberate act of affection on behalf of the animal. If this cursory search were all you had, you wouldn't doubt it–indeed, I'd taken it for granted myself for many years that this was the truth.
 
 The sites in the results page sport names like [catwisdom101.com](catwisdom101.com/slow-blink-cat-kiss-2/), [petful.com](){: .cc-active}, and you'll even find commenters extolling the virtue of exchanging these slow blinks with their cats in the [comment section](https://jacksongalaxy.com/2011/05/07/best-video-ever/) of the personal blog of Jackson Galaxy, über-hip celebrity cat behaviorist, who has been known to promote the idea on his television show. What you'll note, however, in all of these instances, is the conspicuous absence of any _actual_ _behavior studies_.
 
-![Jackson Galaxy, the Guy Fieri of Cats](/uploads/jacksongalaxy.png)
+{% picture jacksongalaxy.png class="mw-100" --alt Jackson Galaxy, the Guy Fieri of Cats %}
 
 _Jackson Galaxy, the Guy Fieri of Cats_
 
