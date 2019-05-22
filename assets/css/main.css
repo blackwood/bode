@@ -12,7 +12,7 @@ body {
 
 #main {
   margin: 40px auto;
-  max-width: 650px;
+  max-width: 666px;
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -112,4 +112,12 @@ pre {
 .w-100 {
   display: block;
   width: 100%;
+}
+
+.big-copy {
+  font-size: 24px;
+}
+
+.mw-100 {
+  max-width: 100%;
 }
