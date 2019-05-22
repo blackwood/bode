@@ -95,6 +95,7 @@ pre {
   max-width: 480px;
   padding: 24px;
   margin: 0 auto;
+  display: block;
 }
 
 .std-margin {
@@ -120,4 +121,11 @@ pre {
 
 .mw-100 {
   max-width: 100%;
+}
+
+.inner-fit--s {
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+  padding: 24px 0;
 }
