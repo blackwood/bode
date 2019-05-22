@@ -26,7 +26,10 @@
 <!-- {% endif %} -->
 <!-- {% endif %} -->
 <meta property="og:site_name" content="{{ site.title }}"/> <meta property="article:section" content="{% if page.section %}{{ page.section }}{% else %}main{% endif %}"/>
-<meta property="article:published_time" content="{% if page.date %}{{ page.date }}{% else %}{{ site.time }}{% endif %}"/>
+<meta
+property="article:published_time" content="{% if page.date %}{{ page.date }}{% else %}{{ site.time }}{% endif %}"/>
+<!-- pinterest verification -->
+<meta content="f7f98970202444a2d990d6b0a87a79ce" name="p:domain_verify"/>
 <!-- <meta property="article:modified_time" content=""> -->
 <!-- <meta property="og:updated_time" content="2015-11-13T03:10:20+00:00"> -->
 <meta content="@{{ twitter_username }}" name="twitter:site"/> <meta name="twitter:domain" content="{{ site.name }}"/>
