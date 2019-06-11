@@ -3,7 +3,7 @@ layout: post
 title: The music recording landscape — a performer's perspective
 date: 2018-12-16 17:32 -0500
 permalink: /recording
-keyword: recording​ music​ devices​ discover​ musician  songwriter​ creator​ underground​ collection​ performer​ microphone​ recording​ DAW​ microphones​ cost audio equipment studio recording band bands​ tracks song​ streaming artist​ solo​ EP producer tastes​ listener​ records​ audio performer​ rhythm​ inspiration​ energy​ sound designer
+keyword: recording​, music​, devices​, discover​, musician, songwriter​, creator​, underground​, collection​, performer​, microphone​, recording​, DAW​, microphones​, cost, audio, equipment, studio, recording, band, bands​, tracks, song​, streaming, artist​, solo​, EP, producer, tastes​, listener​, records​, audio, performer​, rhythm​, inspiration​, energy​, sound, designer
 seo_title: The Music Recording Landscape — a Performer's Perspective
 meta: 'All a musician, songwriter or creator needs to do to move from underground to the music collections of endless new subscribers is to put their music out there, so the conventional wisdom goes. Is it right?'
 omits:
