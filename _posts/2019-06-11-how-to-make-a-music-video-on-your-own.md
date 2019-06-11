@@ -4,7 +4,7 @@ title: How to Make a Music Video on Your Own
 date: 2019-06-11 18:07 -0400
 permalink: /make-music-video
 seo_title: How to Make a Music Video on Your Own
-meta: 'Three tips and ideas on making a music video for producers and artists'
+meta: 'Four tips and ideas on making a music video for budding producers and artists'
 yt_prefetch: true
 ---
 
