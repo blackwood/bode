@@ -58,7 +58,7 @@ Setting up a bunch of furniture in a room might not seem to impart much meaning 
 
 Exemplary of the greatest low-budget kind of shoot: the band is simply hanging out with their friends, continuously overlaying "character" names with a typeface that evokes an 80s sitcom. Prince Daddy &amp; The Hyena milk the campiness and visual comedy, then ferment that milk into declicious punk cheese.
 
-<h2>4. Don't do it on your own</h2>
+<h2 id="last">4. Don't do it on your own</h2>
 
 So, you have your heart set on something else: CGI, animation or complex dance routine. Your bassist had this great idea for a music video where the band fights their own clones. Shouldn't be hard to find some convincing body doubles, no?
 
