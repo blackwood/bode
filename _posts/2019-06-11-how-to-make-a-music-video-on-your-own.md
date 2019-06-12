@@ -8,15 +8,15 @@ meta: 'Four tips and ideas on making a music video for budding producers and art
 yt_prefetch: true
 ---
 
-If you are a self-produced musician or in a band, a music video is an excellent way to raise your profile among your fans. Not only that, it's a great way to find new fans. I can't overstate how much a solid music video can move the dial. Audiences continue to make consistent moves towards consuming all music online. What excites new and old listeners alike is seeing your music applied to the visual medium. Folks will respond—even if the YouTube algorithm doesn't bless you with magic fairy dust.   music video can deepen a song's context or complement the music by titillating the senses. And at its finest, it can provide a glorious synesthetic experience to the viewer.
+If you are a self-produced musician or in a band, a music video is an excellent way to raise your profile among your fans. Not only that, it's a great way to find new fans. I can't overstate how much a solid music video can move the dial. Audiences continue to make consistent moves towards consuming all their favorite music online. What excites new and old listeners alike is seeing your music applied to the visual medium. Folks will respond—even if the YouTube algorithm doesn't bless you with magic fairy dust. A music video can deepen a song's context or complement the music by titillating the senses. And at its finest, it can provide a glorious synesthetic experience to the viewer.
 
-If you're like me though, you don't have the networks or resources of say, Janelle Monae. Which is why you haven't finished your dance homage to the feminine energy in the desert. You likely don't have the hours necessary to make a complex choreographed video. (Early-2000s OK GO—eat your heart out). If you had either, chances are you wouldn't have ended up reading this article. (If you are Janelle Monae, what's up? Take me on tour with you). So let me be clear, as a musician who works with a limited budget: making a music video is about practicality. Let's go through some tips and approaches that should give you some food for thought.
+If you're like me though, you don't have the networks or resources of say, Janelle Monae. Which is why you haven't finished your dance homage to the feminine energy out in the blistering desert heat. You likely don't have the hours necessary to make a complex choreographed video at all. (Early-2000s OK GO—eat your heart out). If you had either, chances are you wouldn't have ended up reading this article. (If you are Janelle Monae, what's up? Take me on tour with you). So let me be clear, as a musician who works with a limited budget: making a music video is about practicality. Let's go through some tips and approaches that should give you some food for thought.
 
 <h2>1. Use practical effects</h2>
 
 <div class='embed-container'><iframe title='Palm - "Dog Milk"' src='https://www.youtube.com/embed//6428kmSJhok' frameborder='0' allowfullscreen></iframe></div>
 
-The most practical effect is still the trusty edit. The band Palm, for their song Dog Milk, has a particularly unique time signature. The edits help reinforce it this unusual timing. Cuts timed to musical bars enhance pivotal moments during the refrain.
+The most practical effect is still the trusty edit. The band Palm utilizes this for their song Dog Milk, which has a particularly unique time signature. The edits help reinforce this unusual timing. Cuts timed to musical bars enhance pivotal moments during the refrain.
 
 <div class='embed-container'><iframe title='Khruangbin - Evan Finds The Third Room' src='https://www.youtube.com/embed/QcD_YXCxxZM' frameborder='0' allowfullscreen></iframe></div>
 
@@ -34,11 +34,11 @@ In this video for the band Goon, a psychedelic kaleidoscopic effect drives the m
 
 <div class='embed-container'><iframe title="They Might Be Giants - Unctuous Robot" src='https://www.youtube.com/embed//a9XJA1dmrKM' frameborder='0' allowfullscreen></iframe></div>
 
-They Might Be Giants have done this to wonderful affect many times. (Particularly for their Dial-A-Song series). Unique evocative scenes can emerge when overlaying two pieces of existing footage. Do the visuals have to do with the deep, hidden meaning of your song? Who knows? It's enough for a music video to look cool. I went with this approach myself for two of the songs off my last EP:
+They Might Be Giants have done this to wonderful affect many times. (Particularly for their Dial-A-Song series). Unique evocative scenes can emerge when overlaying two pieces of existing footage. Do the visuals have to do with the deep, hidden meaning of your song? Who knows? It's enough for a music video to just look cool. I went with this approach myself for two of the songs off my last EP.
 
 <div class='embed-container'><iframe title="Baze Blackwood - Willow Tree" src='https://www.youtube.com/embed//HkObUJy6qeo' frameborder='0' allowfullscreen></iframe></div>
 
-In my song Willow Tree, parts of the car chase and crash in this old film cut to match energetic parts of the song. A great resource for old footage is https://archive.org/details/stock_footage
+In the video for my song Willow Tree, parts of the car chase and crash in this old film cut to match energetic parts of the song. A great resource you can use for old footage is https://archive.org/details/stock_footage
 
 <div class='embed-container'><iframe title="Malik Elarbi - Never Need To" src='https://www.youtube.com/embed//LKDtqbz6P5I' frameborder='0' allowfullscreen></iframe></div>
 
@@ -48,11 +48,15 @@ In this video 90s anti-drug ads aimed at kids are a source of fodder for Malik E
 
 <div class='embed-container'><iframe title="THE CHATS - SMOKO" src='https://www.youtube.com/embed//j58V2vC9EPc' frameborder='0' allowfullscreen></iframe></div>
 
-Innate proof that a video with zero effects and budget can still prove interesting. The band members act out the lyrics with a blithe vibe. Sharpie-drawn expository details make it even funnier. By leaning into their inherent cheapness the video turns eye-rolling to hilarity.
+Innate proof that a video with zero effects and budget can still prove interesting. The band members act out the lyrics with blithe expressions. Sharpie-drawn expository details make it even funnier. By leaning into their inherent cheapness the video turns what would have been eye-rolling shortcutting into hilarity.
 
 <div class='embed-container'><iframe title="Allegheny Drive - Nodus Tollens" src='https://www.youtube.com/embed//SmnaIdOyaYg' frameborder='0' allowfullscreen></iframe></div>
 
-Setting up a bunch of furniture in a room might not seem to impart much meaning at first. But laying bare one's possessions in a room is a sort of stroke of genius for this video. The day passes, time seems to move faster, and then footage, in fact, speeds up. At the end of the day the room is empty and our protagonist finds themselves alone again. Without their possessions, much as the way we leave this life.
+Setting up a bunch of furniture in a room might not seem to impart much meaning at first. But laying bare one's possessions in a room is a stroke of genius for this video. The day passes, time seems to move faster, and then footage, in fact, speeds up. At the end of the day the room is empty and our protagonist finds themselves alone again. Without their possessions, much as the way we leave this life.
+
+<div class='embed-container'><iframe title="Prince Daddy & The Hyena - Lauren" src='https://www.youtube.com/embed//b5ikdSN0V3s' frameborder='0' allowfullscreen></iframe></div>
+
+Exemplary of the greatest low-budget kind of shoot: the band is simply hanging out with their friends, continuously overlaying "character" names with a typeface that evokes an 80s sitcom. Prince Daddy &amp; The Hyena milk the campiness and visual comedy, then ferment that milk into declicious punk cheese.
 
 <h2>4. Don't do it on your own</h2>
 
@@ -78,3 +82,4 @@ On my last video, I had the chance to work with <a href="https://vimeo.com/melti
 
 No matter the undertaking, I recommend you find mentors, trusted colleagues and critics.  Foremost, these should be people who you trust and keep a tight feedback loop with. Second, question your own processes and methods. It's important to understand that you can't get close to near-perfect without reflection. Lowering your standards and making loads of mistakes is the path forward. Your ego can bruise, but you should relish those moments. They will lead to new understandings, as long as you remain open to it.
 
+<i>If you'd like to support my work or just think I'm swell, consider supporting me on <a href="https://patreon.com/bazeblackwood" title="Baze Blackwood - Patreon">Patreon</a></i>.
