@@ -71,11 +71,6 @@ nav {
   z-index: 2;
 }
 
-.move {
-  left: 0px;
-  transition: left 2.5s ease 0s;
-}
-
 .triangle {
   box-sizing: border-box;
   content: '';

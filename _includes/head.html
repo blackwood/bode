@@ -71,8 +71,10 @@ property="article:published_time" content="{% if page.date %}{{ page.date }}{% e
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll('.move').forEach(el => {
-    const getHeaderWidth = () => parseInt(document.getElementsByTagName('header')[0].offsetWidth);
 
+    const getHeaderWidth = () => parseInt(document.getElementsByTagName('header')[0].offsetWidth);
+    el.style.left = getHeaderWidth() / 2 + 'px';
+    el.style.transition = 'left 2.5s ease 0s';
     const getRandomOffsetInRange = (elWidth) => {
       const max = getHeaderWidth() - (elWidth * 2);
       return Math.floor(Math.random() * max);
