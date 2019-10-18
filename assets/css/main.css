@@ -78,7 +78,7 @@ pre {
 
 #avatar {
   height: auto;
-  max-width: 300px;
+  width: 300px;
   margin: 0 auto;
   display: block;
   max-width: 100%;
