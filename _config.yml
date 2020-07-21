@@ -22,5 +22,5 @@ defaults:
       image: true
 
 collections:
-  objects:
+  links:
     output: true

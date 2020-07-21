@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /links
+seo_title: blackwood links
+---
+<h1>Links</h1>
+<main class="mw6 center">
+  {% for link in site.links %}
+
+  <a href="{{ link.href }}">
+    <article class="dt w-100 bb b--black-05 pb2 mt2" href="#0">
+      <div class="dtc w2 w3-ns v-mid">
+        <img src="{{ link.img }}" class="ba b--black-10 db br2 w2 w3-ns h2 h3-ns"/>
+      {{ link.content }}
+      </div>
+      <div class="dtc v-mid pl3">
+        <h2 class="f6 f5-ns fw6 lh-title black mv0">{{ link.name }}</h2>
+      </div>
+    </article>
+  </a>
+</main>
+
+
+{% endfor %}
