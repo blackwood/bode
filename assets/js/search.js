@@ -8,7 +8,7 @@ const search = instantsearch({
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-box',
-    placeholder: 'search baze blackwood on the net'
+    placeholder: 'search miles blackwood robinson on the net'
   })
 );
 
