@@ -31,6 +31,8 @@ property="article:published_time" content="{% if page.date %}{{ page.date }}{% e
 <meta content="f7f98970202444a2d990d6b0a87a79ce" name="p:domain_verify"/>
 <meta content="@{{ twitter_username }}" name="twitter:site"/> <meta name="twitter:domain" content="{{ site.name }}"/>
 <meta content="@{{ twitter_username }}" name="twitter:creator"/>
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="{{ site.url }}/assets/img/{% if page.social_img %}{{ page.social_img }}{% else %}BlackwoodFace.png{% endif %}">
 <meta name="twitter:description" content="{{ page.meta }}"/>
 <meta name="twitter:title" content="{% if page.seo_title %}{{ page.seo_title }} - {% elsif page.title %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <link href="/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
