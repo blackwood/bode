@@ -5,6 +5,7 @@ title: blackwood
 
 include: [_redirects]
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
 
 picture:

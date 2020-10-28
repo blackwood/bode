@@ -57,6 +57,8 @@ GEM
       verbal_expressions (~> 0.1.5)
     jekyll-compose (0.8.0)
       jekyll (~> 3.0)
+    jekyll-feed (0.15.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
@@ -98,8 +100,9 @@ DEPENDENCIES
   jekyll
   jekyll-algolia (~> 1.0)
   jekyll-compose
+  jekyll-feed
   jekyll-picture-tag!
   jekyll-sitemap
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
