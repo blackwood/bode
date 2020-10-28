@@ -4,7 +4,7 @@ title: The Time I Played My High School Talent Show (and Almost Bombed)
 date: 2020-10-28
 permalink: /the-time-i-played-my-high-school-talent-show
 keyword: narrative, music, guitar, talent show, high school, teenager, steve vai, shredding, adolescence, coming of age
-seo_title: The High School Talent Show (I Almost Bombed)
+seo_title: The High School Talent Show I Almost Bombed
 meta: 'As a weird, nerdy teen I had a tendency to overshare and an overbearing urge to be popular among my classmates. Like many teens, I daydreamed that performing in the talent show would help me achieve that end.'
 social_img: guitar-bomb.png
 
