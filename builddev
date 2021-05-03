@@ -1,6 +1,5 @@
 #! /usr/bin/env bash
 
 jekyll build && 
-bundle exec jekyll algolia && 
 mv _site/index.html _site/index.uncritical.html && cat _site/index.uncritical.html | critical --inline > _site/index.html && 
 echo "hi"
